@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raquel Severo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="container">
+        <h1 class="logo">Currículo Raquel Severo</h1>
+        <nav class="menu-principal menu-principal__btn--fechado">
+          <button class="menu-principal__btn">Menu</button>
+          <ul class="menu-principal__lista">
+            <li><a class="menu-principal__item" href="index.html">Home</a></li>
+            <li><a class="menu-principal__item" href="#tecnologias">Tecnologias</a></li>
+            <li><a class="menu-principal__item" href="#trabalhos">Trabalhos</a></li>
+            <li><a class="menu-principal__item" href="#sobre">Sobre</a></li>
+            <li><a class="menu-principal__item" href="mailto:raquel.sev.celia@gmail.com">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <header class="cabecalho-home">
+        <h2 class="cabecalho-home__titulo">Raquel Severo</h2>
+        <p class="cabecalho-home__subtitulo">Desenvolvedora Front-End em formação</p>
+        <a class="cabecalho-home__role"href="#tecnologias">Ver mais</a>
+      </header>
+      <section id="tecnologias" class="tecnologias">
+        <!-- Tecnologias que uso -->
+        <div class="container">
+          <h2 class="secao__titulo">Tecnologias</h2>
+          <section class="tecnologias_item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="ícone do Javascript"
+              width="15%"
+            />
+            <h3>Javascript</h3>
+            <p class="tecnologias__texto">
+              Conhecimento da linguaguem de programação Javascript - conhecimento intermediário
+            </p>
+          </section>
+          <section class="tecnologias_item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="Icone do Html"
+              width="15%"
+            />
+  
+            <h3>Html</h3>
+            <p class="tecnologias__texto">
+              Possuo conhecimento intermediário em HTML, me desenvolvendo atualmente na área de acessibilidade web
+            </p>
+          </section>
+          <section class="tecnologias_item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" 
+            alt="Ícone do Css"
+            width="15%">
+            <h3>CSS</h3>
+            <p class="tecnologias__texto">
+              Possuo conhecimento não somente em CSS puro, também utilizo em algumas aplicações SASS
+            </p>
+          </section>
+          <section class="tecnologias_item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+              alt="Ícone do Vue"
+              width="15%"
+            />
+            <h3>VueJs</h3>
+            <p class="tecnologias__texto">
+              Trabalho atualmente em alguns projetos com VueJs, me desenvolvendo na área da criação de SPA com Vue e Laravel
+            </p>
+          </section>
+          <section class="tecnologias_item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+              alt="Ícone do Figma"
+              width="15%"
+            />
+            <h3>Figma</h3>
+            <p class="tecnologias__texto">
+              Possuo conhecimento básico em Figma - estou estudando atualmente UX/UI para melhorar as interfaces que desenvolvo
+            </p>
+          </section>
+          <section class="tecnologias_item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+              alt="Ícone do Jira"
+              width="15%"
+            />
+            <h3>Jira</h3>
+            <p class="tecnologias__texto">
+              Utilizo não somente o Jira para  acompanhamento de backlog como também outros serviços da Atlassian
+            </p>
+          </section>
+        </div>
+      </section>
+      <!-- Final da tecnologias -->
+    
+      <section class="container pagina-conteudo" id="trabalhos">
+        <h2 id="meu_trabalho_titulo" class="secao__titulo">Meu Trabalho</h2>
+        <nav>
+          <ul id="lista-trabalhos" class="menu-principal__lista">
+              <li><a id="item_trabalho" class="menu-principal__item" href="https://github.com/RaquelSev">GitHub</a></li>
+              <li><a id="item_trabalho" class="menu-principal__item" href="https://www.linkedin.com/in/raquel-severo-celia/">Linkedin</a></li>
+            </ul>
+          </nav>
+      </section>
+    
+        <!-- Sobre mim -->
+        <section class="container pagina-conteudo" id="sobre">
+          <h2 class="secao__titulo">Sobre Mim</h2>
+          <p class="text-center">Desenvolvedora Front-End Júnior em Formação</p>
+          <img src="images/raquel_photo.png" class="img-left" width="20%" alt="Foto da Raquel Severo">
+          <p>Sou estudante de Engenharia de Software na PUC-RS e, atualmente, estou me especializando na área de 
+            desenvolvimento front-end, através dos estudos utilizando Javascript, HTML e CSS. Ainda, estudo VueJs como 
+            framework para dar mais performance às minhas aplicações. Também me interesso por desenvolvimento mobile - já que o VueJs me permite
+            também a criação de aplicações mobile. Ainda, tenho algum conhecimento em Laravel, NodeJs, SQL e React. </p>
+          <p>Para além das ferramentas de desenvolvimento que utilizo, ainda me interesso por experiência do usuário
+            e interfaces (UX/UI). Também tenho bastante interesse em gestão de projetos e produto, terminando uma pós 
+            no assunto agora no final de 2022. 
+             </p>
+             <p>
+              Atulmente, além de trabalhar como estagiária em uma empresa brasileira, também quero começar a trabalhar de forma independente desenvolvendo sites. 
+              Meu objetivo profissional é me desenvolver como fullstack designer - trabalhando com desenvolvimento, design e experiência do usuário  ao mesmo tempo.
+             </p>
+        </section>
+
+        <!-- Contato -->
+        <section class="container pagina-conteudo" id="contato">
+          <h2 id="secao__titulo__converse" class="secao__titulo">Converse comigo</h2>
+          <p id="contato_paragrafo" class="text-center">Me contate por e-mail, ou mesmo Linkedin, Github ou Instagram</p>
+          <p id="contato_paragrafo" class="text-center">No cabeçalho ou rodapé desse site você consegue me contatar diretamente por e-mail (através do contato)</p>
+          <p id="contato_paragrafo" class="text-center">Ou até mesmo achar minhas outras redes socias para que possamos conversar</p>
+        </section>
+
+      <!-- Footer -->
+    </main>
+    <footer class="rodape">
+      <div class="rodape__linha-1">
+        <div class="container">
+          <div class="rodape__coluna">
+            <a href="index.html" class="logo__rodape"> Portifólio Raquel Severo </a>
+            <p>
+              Uma desenvolvedora front-end júnior em formação. 
+            </p>
+          </div>
+          <div class="rodape__coluna">
+            <h2 class="rodape__titulo">Social</h2 class="">
+            <ul class="rodape_lista-links">
+              <li>
+                <a class="rodape__litas-links__item" href="https://www.linkedin.com/in/raquel-severo-celia/"
+                  target="_blank"
+                  >Linkedin</a
+                >
+              </li>
+              <li>
+                <a class="rodape__litas-links__item" href="https://discord.gg/Y6Tdx3RC" target="_blank"
+                  >Discord - Servidor</a
+                >
+              </li>
+              <li>
+                <a class="rodape__litas-links__item" href="https://instagram.com/raquelscelia" target="_blank"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="rodape__coluna">
+            <h2 class="rodape__titulo">Conheça</h2>
+            <ul class="rodape_lista-links">
+              <li><a class="rodape__litas-links__item" href="index.html">Home</a></li>
+              <li><a class="rodape__litas-links__item" href="#tecnologias">Tecnologias</a></li>
+              <li><a class="rodape__litas-links__item" href="#sobre">Sobre</a></li>
+              <li><a class="rodape__litas-links__item" href="mailto:raquel.sev.celia@gmail.com">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+      <div class="rodape__linha-2">© 2022 - Todos os direitos reservados - Raquel Severo</div>
+    </footer>
+  </body>
+</html>
